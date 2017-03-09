@@ -7,6 +7,12 @@ This is port of 'C soure code' to JavaScript.
 
 The original C source code can be found [here](https://github.com/edrosten/fast-C-src).
 
+
+## Install
+```
+npm install pngjs
+```
+
 ## Usage
 
 ### fast9.detect(im, width, height, threshold, [nonmax])
