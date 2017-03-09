@@ -28,6 +28,7 @@ fs.createReadStream(pngfile)
 				// data[idx+3] is alpha
 				var gray = parseInt(data[idx] * 0.3 + data[idx+1] * 0.6 + data[idx+2] * 0.11);
 				//var gray = (data[idx] >> 2) + (data[idx+1] >> 1) + (data[idx+2] >> 2); // faster
+				if (gray > 0xFF) gray = 0xFF;
 				gs[gs_index++] = gray;
 			}
 		}
