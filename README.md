@@ -98,7 +98,7 @@ fs.createReadStream(pngfile)
 	});	
 ```
 
-<img src="https://cdn.rawgit.com/m320ng/fast9/f8d8bfb1/examples/corner.png"/>
+<img src="https://cdn.rawgit.com/m320ng/fast9/a152d495/examples/corner.png"/>
 
 ## License
 
