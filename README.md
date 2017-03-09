@@ -7,7 +7,7 @@ The original C source code can be found [here](https://github.com/edrosten/fast-
 
 ## Usage
 
-###fast9.detect(im, width, height, threshold, [nonmax])
+### fast9.detect(im, width, height, threshold, [nonmax])
 
 Params
 
