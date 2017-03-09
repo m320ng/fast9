@@ -2,7 +2,9 @@
 # Fast9 -- FAST Corner Detection
 
 Fast9 is a pure javascript implementation of 'FAST Corner Detection'.
+
 This is port of 'C soure code' to JavaScript.
+
 The original C source code can be found [here](https://github.com/edrosten/fast-C-src).
 
 ## Usage
@@ -11,20 +13,24 @@ The original C source code can be found [here](https://github.com/edrosten/fast-
 
 Params
 
+```
 im : grayscale byte array
 width : image width
 height : image height
 threshold : threshold
 nonmax : non-maximum suppression
+```
 
 Result
 
+```
 Array
 {
 	x:x position,
 	y:y position,
 	score:corner score
 }
+```
 
 ```javascript
 // detect corners
