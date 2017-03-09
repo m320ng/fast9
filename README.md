@@ -10,7 +10,7 @@ The original C source code can be found [here](https://github.com/edrosten/fast-
 
 ## Install
 ```
-npm install pngjs
+npm install fast9
 ```
 
 ## Usage
