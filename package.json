@@ -1,0 +1,27 @@
+{
+  "name": "fast9",
+  "version": "0.0.1",
+  "description": "FAST Corner Detection",
+  "author": {
+    "name": "m320ng"
+  },
+  "main": "fast9",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/m320ng/fast9.git"
+  },
+  "bugs": {
+    "url": "http://github.com/m320ng/fast9/issues"
+  },
+  "keywords": [
+    "fast",
+    "find corner",
+    "corner detect"
+  ],
+  "license": "BSD license",
+  "scripts": {},
+  "directories": {}
+}
