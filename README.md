@@ -12,7 +12,6 @@ The original C source code can be found [here](https://github.com/edrosten/fast-
 ### fast9.detect(im, width, height, threshold, [nonmax])
 
 Params
-
 ```
 im : grayscale byte array
 width : image width
@@ -22,7 +21,6 @@ nonmax : non-maximum suppression
 ```
 
 Result
-
 ```
 Array
 {
@@ -32,6 +30,7 @@ Array
 }
 ```
 
+Source
 ```javascript
 // detect corners
 var threshold = 20;
